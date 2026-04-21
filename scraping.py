@@ -3,12 +3,12 @@ import time
 # Inicializar
 L = instaloader.Instaloader()
 
-# Perfil objetivo
-username = "lilbieber"
+# Perfil 
+username = "sweatgym__"
 
 profile = instaloader.Profile.from_username(L.context, username)
 
-# Obtener las primeras 2 publicaciones
+# 2 publicaciones
 posts = profile.get_posts()
 
 for i, post in enumerate(posts):
